@@ -169,6 +169,10 @@ header h1 {
     text-align: center;
 }
 
+.colega a{
+   text-decoration: none;
+}
+
 .colega img {
     width: 100%;
     border-radius: 8px;
@@ -236,3 +240,58 @@ header h1 {
     margin-right: 4px; /* Margem à direita para separar as tags */
   }
   
+
+
+ /* Estilos para telas menores */
+@media (max-width: 768px) {
+    header {
+        padding: 5px 5px; /* Espaçamento interno */
+        height: 100px; /* Altura */
+    }
+
+    nav ul li a {
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    .secao_botao {
+        float: right;
+        padding-top: 70px;
+    }
+
+    .nome {
+        font-size: 13px;
+        padding: 3px 5px;
+    }
+
+    .perfil-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .secao_botao {
+        justify-content: center;
+    }
+
+    .secao_botao li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .perfil {
+        padding: 15px;
+    }
+
+    .botoes-contato {
+        margin-top: 10px;
+    }
+
+    .botoes-contato .bi {
+        font-size: 24px;
+    }
+
+    .tag {
+        padding: 0px 8px;
+        margin-right: 2px;
+    }
+}
