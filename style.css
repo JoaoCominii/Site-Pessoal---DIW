@@ -41,12 +41,18 @@ nav ul li a {
     float: right;
     text-align: right;
     padding: 5px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, sans-serif;
 }
+nav ul li a:hover {
+    color: #007bff;
+   transition: color 0.3s ease;
+}
+
 
 .secao_botao {
     line-height: 100px;
+    float: right;
 }
 
 /* Estilo para a seção de perfil */
@@ -59,6 +65,12 @@ header h1 {
     background-color: #e7e5e5; /* Cor do fundo */
     border: 1px solid #ccc; /* Borda */
     padding: 2px 30px; /* Espaçamento interno */
+    text-decoration: none;
+    color: black; /* Cor do texto */
+}
+#nome:hover {
+    color: #007bff; /* Cor do texto ao passar o mouse */
+    transition: color 0.3s ease; /* Transição de cor */
 }
 
 .perfil {
